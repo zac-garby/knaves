@@ -1,4 +1,4 @@
-module Naives where
+module Knaves where
     
 import Data.List
 import Data.Maybe
