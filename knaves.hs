@@ -82,7 +82,7 @@ solve pr = sat expr
 -}
 prob1 =
   [ ("A", Not (V "B") ==> Not (V "C"))
-  , ("B", Not (V "A" ||| V "C"))
+  , ("B", V "A" ||| V "C")
   , ("C", Not (V "A") &&& Not (V "B"))
   ]
 
